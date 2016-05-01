@@ -31,8 +31,8 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.UUID;
 
-import ch.hes_so.glassrallylibs.bluetooth.command.Command;
-import ch.hes_so.glassrallylibs.bluetooth.command.CommandEncoder;
+import ch.hes_so.glassrallylibs.command.Command;
+import ch.hes_so.glassrallylibs.command.CommandEncoder;
 
 
 /**

@@ -1,4 +1,4 @@
-package ch.hes_so.glassrallylibs.bluetooth.command;
+package ch.hes_so.glassrallylibs.command;
 
 public enum Command_E {
     //TODO: add or remove commands

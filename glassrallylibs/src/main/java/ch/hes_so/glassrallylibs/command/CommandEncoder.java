@@ -1,4 +1,4 @@
-package ch.hes_so.glassrallylibs.bluetooth.command;
+package ch.hes_so.glassrallylibs.command;
 
 import android.util.Log;
 

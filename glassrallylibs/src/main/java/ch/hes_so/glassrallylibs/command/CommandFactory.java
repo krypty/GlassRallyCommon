@@ -1,4 +1,4 @@
-package ch.hes_so.glassrallylibs.bluetooth.command;
+package ch.hes_so.glassrallylibs.command;
 
 public class CommandFactory {
     private static final String TAG = CommandFactory.class.getSimpleName();
