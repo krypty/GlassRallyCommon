@@ -43,6 +43,7 @@ public class BluetoothService extends Service {
             throw new IllegalStateException("Not connected, cannot send command");
         }
 
+        Log.d(TAG, "cmd to send: " + cmd);
         this.bluetoothThread.write(cmd);
     }
 

@@ -22,4 +22,16 @@ public class CommandFactory {
 
         return new Command(Command_E.NEW_VECTOR, parameters);
     }
+
+    public static Command createRewardCommand(String reward) {
+        return new Command(Command_E.REWARD, reward);
+    }
+
+    public static Command createVictoryCommand() {
+        return new Command(Command_E.VICTORY);
+    }
+
+    public static Command createDistanceCommand(float distance) {
+        return new Command(Command_E.NEW_DISTANCE, String.valueOf(distance));
+    }
 }
